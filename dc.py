@@ -47,7 +47,7 @@ class MyClient(discord.Client):
 
                 for word in get_sentences():
                     try:
-                        await message.channel.send(word, delete_after = 150)
+                        await message.channel.send(word, delete_after = 210)
                         await asyncio.sleep(DELAY)
                     except Exception as e:
                         pass
